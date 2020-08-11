@@ -1,1 +1,8 @@
+#eclipse
 /bin/
+#dcoder  
+gen/
+obj/
+libs/*/*.so
+
+.sources.txt

@@ -1,0 +1,11 @@
+#search all .java, put in .txt and compile
+#find -name "*.java" > sources.txt && javac -d bin @sources.txt
+# run .class in bin past
+#java -Xmx256m -Dfile.encoding=UTF-8 -cp bin main.Main
+
+
+git config --global user.email "ueredeveloper@gmail.com"
+git config --global user.name "ueredeveloper" 
+git add . 
+git commit -m 'initialization dcoder'  
+#git push -u origin master
