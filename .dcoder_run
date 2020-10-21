@@ -1,11 +1,20 @@
 #search all .java, put in .txt and compile
-#find -name "*.java" > sources.txt && javac -d bin @sources.txt
+find -name "*.java" > sources.txt && javac -d bin @sources.txt
 # run .class in bin past
-#java -Xmx256m -Dfile.encoding=UTF-8 -cp bin main.Main
+java -Xmx256m -Dfile.encoding=UTF-8 -cp bin main.Main
 
 
-git config --global user.email "ueredeveloper@gmail.com"
-git config --global user.name "ueredeveloper" 
-git add . 
-git commit -m 'initialization dcoder'  
+#how config github in dcoder
+#delete in git config all [remote "xxx"]... 
+#then run:
+#git remote add origin https://[username] :[password]@github.com/[username]/[project_name].git
+
+#git config --global user.email "email"
+#git config --global user.name "username" 
+#git add . 
+#git commit -m 'xxxxxxx'  
 #git push -u origin master
+
+#git commit -m "cretaed account class, cap 3"
+#git status
+git add . 
